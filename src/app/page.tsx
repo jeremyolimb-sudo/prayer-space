@@ -78,8 +78,21 @@ export default function Home() {
         ))}
       </div>
 
+      {/* Get Connected */}
+      <div className="mt-10">
+        <a
+          href="https://redemptiongilbert.church/visit"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-brand-primary text-white rounded-xl p-4 text-center transition-all active:scale-[0.98] hover:bg-brand-primary-light"
+        >
+          <p className="font-medium text-sm">Get Connected</p>
+          <p className="text-xs text-white/70 mt-0.5">Join our local Christian community</p>
+        </a>
+      </div>
+
       {/* Footer */}
-      <div className="text-center mt-12 mb-4">
+      <div className="text-center mt-8 mb-4">
         <div className="w-8 h-px bg-brand-mist mx-auto mb-3" />
         <p className="text-xs text-brand-sage/70">
           The Commons at Redemption
