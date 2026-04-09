@@ -1,0 +1,22 @@
+{
+  "name": "The Prayer Space at Redemption",
+  "short_name": "Prayer Space",
+  "description": "A guided prayer experience at Redemption Gilbert",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ee",
+  "theme_color": "#194742",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

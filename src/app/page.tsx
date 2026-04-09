@@ -1,65 +1,98 @@
-import Image from "next/image";
+import Link from "next/link";
+import { BookIcon, SparklesIcon, FootprintsIcon, HomeIcon } from "@/components/Icons";
+
+const navCards = [
+  {
+    href: "/about",
+    title: "About the Space",
+    description: "What to expect when you visit",
+    icon: HomeIcon,
+    color: "text-brand-primary",
+    bg: "bg-brand-primary/5",
+    border: "border-brand-primary/10",
+  },
+  {
+    href: "/wall-prayers",
+    title: "The Prayer Wall",
+    description: "Write a prayer and tuck it in the wall",
+    icon: SparklesIcon,
+    color: "text-brand-gold",
+    bg: "bg-brand-gold/5",
+    border: "border-brand-gold/10",
+  },
+  {
+    href: "/guided-prayer",
+    title: "Guided Prayer",
+    description: "Step-by-step ways to spend time with God",
+    icon: BookIcon,
+    color: "text-brand-sage",
+    bg: "bg-brand-sage/5",
+    border: "border-brand-sage/10",
+  },
+  {
+    href: "/prayer-walk",
+    title: "Prayer Walk",
+    description: "A guided walk around the lawn",
+    icon: FootprintsIcon,
+    color: "text-brand-primary",
+    bg: "bg-brand-mist/30",
+    border: "border-brand-mist/60",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div>
+      {/* Header */}
+      <div className="text-center mb-10 pt-4">
+        <p className="text-xs uppercase tracking-[0.2em] text-brand-gold-muted font-medium mb-2">
+          Redemption Gilbert
+        </p>
+        <h1 className="font-serif text-2xl font-semibold text-brand-primary mb-2">
+          The Prayer Space
+        </h1>
+        <div className="w-12 h-px bg-brand-gold-muted mx-auto mb-4" />
+        <p className="text-brand-sage text-sm leading-relaxed max-w-xs mx-auto">
+          A place set apart for encountering God through prayer, reflection, and stillness.
+        </p>
+      </div>
+
+      {/* Navigation Cards */}
+      <div className="space-y-3">
+        {navCards.map((card) => (
+          <Link
+            key={card.href}
+            href={card.href}
+            className={`block ${card.bg} border ${card.border} rounded-xl p-4 transition-all active:scale-[0.98]`}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+            <div className="flex items-center gap-4">
+              <div className={`${card.color} shrink-0`}>
+                <card.icon className="w-6 h-6" />
+              </div>
+              <div>
+                <h2 className="font-medium text-brand-primary">{card.title}</h2>
+                <p className="text-sm text-brand-sage">{card.description}</p>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      {/* Footer */}
+      <div className="text-center mt-12 mb-4">
+        <div className="w-8 h-px bg-brand-mist mx-auto mb-3" />
+        <p className="text-xs text-brand-sage/70">
+          The Commons at Redemption
+        </p>
+        <a
+          href="https://redemptiongilbert.church"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-brand-sage/50 hover:text-brand-primary transition-colors mt-1 inline-block"
+        >
+          redemptiongilbert.church
+        </a>
+      </div>
     </div>
   );
 }

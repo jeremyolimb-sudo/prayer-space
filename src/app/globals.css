@@ -1,26 +1,120 @@
 @import "tailwindcss";
 
+/* ===== Brand Fonts ===== */
+@font-face {
+  font-family: 'Begum';
+  src: url('/fonts/Begum-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Begum';
+  src: url('/fonts/Begum-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Begum';
+  src: url('/fonts/Begum-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/fonts/BricolageGrotesque-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/fonts/BricolageGrotesque-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/fonts/BricolageGrotesque-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Brand Color Palette ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primary — dark forest green */
+  --brand-primary: #194742;
+
+  /* Secondary — sage green */
+  --brand-sage: #98a8a5;
+
+  /* Secondary — gold/mustard */
+  --brand-gold: #d5a92a;
+
+  /* Tertiary — light blue-gray */
+  --brand-mist: #d3e2e0;
+
+  /* Tertiary — warm cream */
+  --brand-cream: #f4eedf;
+
+  /* Light neutral — off-white background */
+  --brand-linen: #f5f3ee;
+
+  /* Derived shades */
+  --brand-primary-light: #1e5952;
+  --brand-gold-muted: #c9a43a;
+
+  /* Font families */
+  --font-sans: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-serif: 'Begum', Georgia, serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: var(--brand-linen);
+  --color-foreground: var(--brand-primary);
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-sage: var(--brand-sage);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-muted: var(--brand-gold-muted);
+  --color-brand-mist: var(--brand-mist);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-linen: var(--brand-linen);
+  --color-brand-primary-light: var(--brand-primary-light);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--brand-linen);
+  color: var(--brand-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Smooth transitions between pages */
+main {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Timer circle animation */
+@keyframes timerStroke {
+  from {
+    stroke-dashoffset: 0;
+  }
 }

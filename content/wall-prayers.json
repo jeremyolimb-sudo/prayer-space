@@ -1,0 +1,94 @@
+{
+  "title": "The Prayer Wall",
+  "subtitle": "Write It Down. Let It Go.",
+  "introduction": "The walls of the Prayer Space are crafted from Douglas fir with slender gaps between each piece. You\u2019re invited to write a prayer on one of the small pieces of paper provided, fold it up, and tuck it into the wall. Your prayer doesn\u2019t stay hidden\u2014others in the community will read it and pray over it. That\u2019s the point. Your prayers are carried by the people of this place.",
+  "wallInstruction": "Grab a piece of paper and a pen from the table. Write whatever is on your heart. Fold it up and tuck it into the wall. That\u2019s it. There\u2019s no formula. Others will find it, read it, and pray for you. If you\u2019re not sure what to write, the prayer guides below can help you get started.",
+  "guidesTitle": "Not Sure What to Pray?",
+  "guidesIntro": "These short guides are here to help if you feel stuck or just want a little direction. Pick one that fits where you are today.",
+  "guides": [
+    {
+      "id": "gratitude",
+      "title": "When You Need to Say Thank You",
+      "icon": "heart",
+      "description": "Sometimes we rush past the good stuff. This guide helps you slow down and notice what God has given you today.",
+      "steps": [
+        "Take a breath. Get quiet for a second.",
+        "Think about the last 24 hours. What\u2019s one thing\u2014big or small\u2014that you\u2019re thankful for?",
+        "Write it down. Be specific. Not just \u201cmy family\u201d but maybe \u201cthe way my kid laughed at dinner last night.\u201d",
+        "Tell God thank you. Mean it. Fold it up and tuck it in the wall\u2014someone else will find it and thank God with you."
+      ],
+      "scripture": "Give thanks in all circumstances; for this is the will of God in Christ Jesus for you.",
+      "scriptureRef": "1 Thessalonians 5:18"
+    },
+    {
+      "id": "burden",
+      "title": "When You\u2019re Carrying Something Heavy",
+      "icon": "water",
+      "description": "You don\u2019t have to carry it alone. This guide helps you name what\u2019s weighing on you and hand it to God.",
+      "steps": [
+        "Close your eyes for a moment. What\u2019s the first thing that comes to mind when you think about what\u2019s been heavy lately?",
+        "Write it down honestly. You don\u2019t have to be polished or spiritual. Just be real.",
+        "Read it back to yourself. Then say to God: \u201cI\u2019m giving this to You.\u201d",
+        "Fold it up and tuck it into the wall. You\u2019re not forgetting it\u2014you\u2019re releasing it. And someone else will carry it with you in prayer."
+      ],
+      "scripture": "Cast all your anxiety on him because he cares for you.",
+      "scriptureRef": "1 Peter 5:7"
+    },
+    {
+      "id": "someone-else",
+      "title": "When Someone Else Needs Prayer",
+      "icon": "hands",
+      "description": "Maybe you came in thinking about someone who\u2019s struggling. This guide helps you pray for them.",
+      "steps": [
+        "Who\u2019s on your mind right now? Picture them.",
+        "What do they need? It\u2019s okay if you\u2019re not totally sure. God knows.",
+        "Write their name and what you\u2019re asking God to do for them.",
+        "Fold it up and tuck it in the wall. Someone else will find it and pray for them too."
+      ],
+      "scripture": "Bear one another\u2019s burdens, and so fulfill the law of Christ.",
+      "scriptureRef": "Galatians 6:2"
+    },
+    {
+      "id": "forgiveness",
+      "title": "When You Need to Get Honest",
+      "icon": "flame",
+      "description": "This isn\u2019t about guilt. It\u2019s about freedom. Sometimes the bravest prayer is the most honest one.",
+      "steps": [
+        "Ask God to bring to mind anything you\u2019ve been avoiding or holding onto.",
+        "Write it down. You don\u2019t have to explain yourself. Just name it.",
+        "Ask God for forgiveness, or for the strength to forgive someone else.",
+        "Fold it up and tuck it in the wall. Leave it there. Others will pray over it\u2014you don\u2019t have to carry it alone."
+      ],
+      "scripture": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.",
+      "scriptureRef": "1 John 1:9"
+    },
+    {
+      "id": "direction",
+      "title": "When You Don\u2019t Know What\u2019s Next",
+      "icon": "sparkles",
+      "description": "If you\u2019re in a season of uncertainty\u2014waiting, deciding, wondering\u2014this guide helps you bring that to God.",
+      "steps": [
+        "What\u2019s the decision or situation you keep turning over in your mind?",
+        "Write it down. Be honest about what you\u2019re feeling\u2014confused, anxious, hopeful, stuck.",
+        "Ask God: \u201cWhat do You want me to see that I\u2019m not seeing?\u201d",
+        "Fold it up and tuck it in the wall. You don\u2019t need the answer right now. Someone else will find this and ask God on your behalf."
+      ],
+      "scripture": "Trust in the Lord with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths.",
+      "scriptureRef": "Proverbs 3:5\u20136"
+    },
+    {
+      "id": "just-be",
+      "title": "When You Don\u2019t Have Words",
+      "icon": "sun",
+      "description": "You don\u2019t have to say anything profound. Sometimes the best prayer is just showing up.",
+      "steps": [
+        "Sit down. Take a few slow breaths.",
+        "You don\u2019t have to write anything yet. Just be here.",
+        "If something comes to mind\u2014a word, a name, a feeling\u2014write that down. Even one word counts.",
+        "If nothing comes, that\u2019s okay too. Your presence here is a prayer. Tuck whatever you\u2019ve got into the wall\u2014even one word is enough for someone else to pray over."
+      ],
+      "scripture": "Be still, and know that I am God.",
+      "scriptureRef": "Psalm 46:10"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "title": "The Prayer Walk",
+  "subtitle": "A Guided Walk with God",
+  "introduction": "This prayer walk follows the path under the palo verde trees and around the lawn at The Commons. There are six stations along the way, each with a Scripture and a prayer prompt. Walk slowly. There is no hurry. The walk ends at the entrance to The Prayer Space, where you\u2019re invited to continue your time with God inside.",
+  "instructions": "Begin at Station 1, just outside the northeast exit of The Commons. Follow the path around the lawn, stopping at each station. Spend 2\u20133 minutes at each station, or longer if the Spirit leads.",
+  "stations": [
+    {
+      "number": 1,
+      "title": "Arrival",
+      "subtitle": "Becoming Present",
+      "location": "Northeast corner of The Commons",
+      "instruction": "Before you begin walking, pause here. Take three slow, deep breaths. Release the hurry and noise of your day. You are stepping into sacred time. Ask God to meet you on this walk.",
+      "scripture": "Be still, and know that I am God.",
+      "scriptureRef": "Psalm 46:10",
+      "prompt": "God, I\u2019m here. Help me to be fully present with You on this walk."
+    },
+    {
+      "number": 2,
+      "title": "Creation",
+      "subtitle": "Seeing God\u2019s Handiwork",
+      "location": "Halfway along the path, under the palo verdes",
+      "instruction": "As you walk, look around you. Notice the sky, the trees, the ground beneath your feet. Creation is God\u2019s first sermon\u2014His ongoing declaration that He is real, present, and generous.",
+      "scripture": "The heavens declare the glory of God; the skies proclaim the work of his hands.",
+      "scriptureRef": "Psalm 19:1",
+      "prompt": "What do you notice in creation around you? Thank God for something specific you see."
+    },
+    {
+      "number": 3,
+      "title": "Confession",
+      "subtitle": "Honest Before God",
+      "location": "At the north point of the lawn",
+      "instruction": "Walking is an act of moving forward. As you walk this stretch, bring to God anything that weighs on your conscience. Confession isn\u2019t about shame\u2014it\u2019s about honesty. God already knows. He\u2019s inviting you to let it go.",
+      "scripture": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.",
+      "scriptureRef": "1 John 1:9",
+      "prompt": "Is there anything you need to confess or release? Speak it honestly to God."
+    },
+    {
+      "number": 4,
+      "title": "Intercession",
+      "subtitle": "Carrying Others to God",
+      "location": "Halfway along the path, heading back toward the Prayer Space",
+      "instruction": "Think of the people in your life\u2014family, friends, coworkers, neighbors. Who needs prayer right now? As you walk, lift them by name to God. You don\u2019t need eloquent words. Just bring them.",
+      "scripture": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+      "scriptureRef": "Mark 11:24",
+      "prompt": "Who is God placing on your heart? Pray for them by name as you walk."
+    },
+    {
+      "number": 5,
+      "title": "Listening",
+      "subtitle": "Hearing God\u2019s Voice",
+      "location": "At the west corner of the grass",
+      "instruction": "Slow your pace. This station is about listening, not speaking. Ask God one simple question: \u201cWhat do You want me to hear today?\u201d Then walk in silence. Pay attention to what surfaces\u2014a thought, a word, a feeling, a memory. God speaks in many ways.",
+      "scripture": "Whether you turn to the right or to the left, your ears will hear a voice behind you, saying, \u201cThis is the way; walk in it.\u201d",
+      "scriptureRef": "Isaiah 30:21",
+      "prompt": "God, what do You want me to hear today? I\u2019m listening."
+    },
+    {
+      "number": 6,
+      "title": "Entering the Space",
+      "subtitle": "From Walk to Rest",
+      "location": "At the entrance to The Prayer Space",
+      "instruction": "You\u2019ve arrived at The Prayer Space. Before you enter, take a moment to thank God for meeting you on this walk. As you step inside, you\u2019re moving from walking prayer into a room designed for stillness. The walls hold the prayers of others\u2014and there\u2019s space for yours too. Take your time.",
+      "scripture": "Come to me, all you who are weary and burdened, and I will give you rest.",
+      "scriptureRef": "Matthew 11:28",
+      "prompt": "Thank God for this walk. Step inside and continue your time with Him."
+    }
+  ]
+}

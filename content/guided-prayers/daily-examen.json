@@ -1,0 +1,51 @@
+{
+  "title": "Reviewing Your Day with God",
+  "subtitle": "A Prayer of Reflection",
+  "description": "This is a simple way of looking back over your day (or your week) with God. It helps you notice where God has been present, where you felt most alive, and where you might need His grace. Five short steps. No experience required.",
+  "duration": "10\u201315 minutes",
+  "icon": "sun",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Start with Thanks",
+      "subtitle": "What are you grateful for?",
+      "instruction": "Get quiet. Take a few slow breaths. Ask God to bring to mind the gifts of today\u2014big and small. A conversation. A meal. A moment of beauty. Something kind someone did for you. Let the gratitude come on its own.",
+      "prompt": "What\u2019s one thing from today that you\u2019re genuinely thankful for?",
+      "suggestedTime": 180
+    },
+    {
+      "number": 2,
+      "title": "Walk Through It",
+      "subtitle": "Replay your day",
+      "instruction": "Ask the Holy Spirit to guide your memory. Walk through your day from the time you woke up until right now, like you\u2019re watching it on a screen. Don\u2019t judge anything yet\u2014just replay it. Where did you feel most alive? Where did you feel drained or off?",
+      "prompt": "As you walk through your day, what moments stand out?",
+      "suggestedTime": 240
+    },
+    {
+      "number": 3,
+      "title": "Name What You Felt",
+      "subtitle": "Pay attention to your emotions",
+      "instruction": "As you review, notice the emotions that came up. What brought you energy, joy, or peace? What left you anxious, frustrated, or sad? Your feelings aren\u2019t random\u2014they\u2019re often clues to where God is working or where you need Him.",
+      "prompt": "What emotions surfaced today? What might they be telling you?",
+      "suggestedTime": 180
+    },
+    {
+      "number": 4,
+      "title": "Bring One Thing to God",
+      "subtitle": "Pick a moment and pray about it",
+      "instruction": "From everything you\u2019ve noticed, choose one moment\u2014good or hard\u2014that stands out most. Bring it to God in prayer. If it was life-giving, thank Him. If it was painful, ask for healing or wisdom. Just talk to Him honestly about it.",
+      "prompt": "What\u2019s the one thing you most want to talk to God about from today?",
+      "suggestedTime": 240
+    },
+    {
+      "number": 5,
+      "title": "Look Ahead",
+      "subtitle": "Give God tomorrow",
+      "instruction": "Shift your attention to tomorrow. What are you looking forward to? What are you dreading? Ask God to go ahead of you. You don\u2019t need to have it all figured out\u2014you just need to know He\u2019ll be there.",
+      "prompt": "What do you need from God for tomorrow?",
+      "scripture": "The Lord himself goes before you and will be with you; he will never leave you nor forsake you. Do not be afraid; do not be discouraged.",
+      "scriptureRef": "Deuteronomy 31:8",
+      "suggestedTime": 180
+    }
+  ]
+}
